@@ -13,6 +13,7 @@ namespace Store.G02.Domain.Entities.Products
         public string PictureUrl { get; set; }
         public decimal Price { get; set; }
 
+        
         public int BrandId { get; set; } // FK
         public ProductBrand Brand { get; set; }
 
